@@ -4,7 +4,9 @@ import { useStateValue } from '../StateProvider'
 import { Link } from 'react-router-dom';
 
 function Product({ id, title, price, rating, image1, image2, image3, image4, image5, point1, point2, point3, point4, point5 }) {
-	{/*in class using props to pass the data in function we use curly brace*/ }
+	{/* Destructing a Props 
+		eg.... const {id,title,price, rating,image1} =  props;
+	*/ }
 
 	const [{ basket }, dispatch] = useStateValue();
 
