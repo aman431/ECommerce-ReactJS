@@ -32,6 +32,8 @@
 .product_info{
 	height: 100px;
 	margin-bottom: 15px;
+	cursor: pointer;
+	color: black;
 }
 
 .product_price{
